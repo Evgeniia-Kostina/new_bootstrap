@@ -34,10 +34,18 @@ $offcanvas-box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
 @import "bootstrap/scss/functions";
 
 // Customize some defaults
-$body-color: #333;
+$body-color: red;
 $body-bg: #fff;
 $border-radius: .4rem;
-$success: #7952b3;
+$success: black;
+$theme-colors: (
+                primary: #237b42,
+                secondary: #3b3c3e,
+                success: #1e6111,
+                info:  #64c3d2,
+                warning: #f5e74a,
+                danger: #820410
+                );
 
 // Required
 @import "bootstrap/scss/variables";
@@ -88,6 +96,7 @@ $success: #7952b3;
 //
 // Custom styles
 //
+
 
 @import "icon-list";
 
